@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'bitter';
+    src: url('../fonts/Bitter/Bitter-Italic-VariableFont_wght.ttf') format('truetype'), 
+         url('../fonts/Bitter/Bitter-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'jet_brain';
+    src: url('../fonts/jet_brain_web_fonts/JetBrainsMono-Bold.woff2') format('woff2'), 
+         url('../fonts/jet_brain_web_fonts/JetBrainsMono-Regular.woff2') format('woff2'), 
+         url('../fonts/jet_brain_web_fonts/JetBrainsMono-MediumItalic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'pt_serif';
+    src: url('../fonts/PT_Serif/PTSerif-Regular.ttf') format('truetype'), 
+         url('../fonts/PT_Serif/PTSerif-Bold.ttf') format('truetype'), 
+         url('../fonts/PT_Serif/PTSerif-Italic.ttf') format('truetype');
+}
+
+body {
+    margin: 0 10%;;
+   
+}
+
+.colors {
+    border: 2px solid gray;
+    padding:10px 10px;
+    margin: 20px auto;
+    min-height: 100px;
+    text-align: center;
+    width: 100%;
+
+}
+
+
+
+.colors h2{
+    margin: 0;
+    text-align: left;
+
+}
+
+.colors div {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 0 0 10px 5px gray;
+
+
+}
+
+.colors div:hover{
+    box-shadow: 0 0 20px 5px lime;
+}
+
+
+.colors p {
+    color:black;
+    margin:88.5px 0;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'jet_brain';
+}
+
+.color1 p {
+    color: white;
+}
+
+.color2 p {
+    color: white;
+}
+
+.color1 {
+    background-color: #264653;
+    
+}
+
+.color2 {
+    background-color: #2a9d8f;
+}
+
+.color3 {
+    background-color: #e9c46a;
+}
+
+.color4 {
+    background-color: #f4a261;
+}
+
+.color5 {
+    background-color: #e76f51;
+}
+
+
+.fonts {
+    border: 2px solid gray;
+    padding: 10px 10px;
+    margin: 20px auto;
+    min-height: 100px;
+    width: 100%;
+    
+    
+}
+
+.font-container{
+    display: inline-block;
+    margin: 10px 10px;
+    vertical-align: top;
+}
+
+.font-label{
+    font-size: 20px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.bitter1{
+    font-family: bitter;
+}
+
+.bitter2{
+    font-family: bitter;
+    font-weight: bold;
+}
+
+.jetbrain1{
+    font-family: 'jet_brain';
+}
+
+.jetbrain2{
+    font-family: 'jet_brain';
+    font-weight: bold;
+}
+.jetbrain3{
+    font-family: 'jet_brain';
+    font-style: italic;
+}
+
+
+.ptserif1{
+    font-family: 'pt_serif';
+}
+
+.ptserif2 {
+    font-family: 'pt_serif';
+    font-weight: bold;
+}
+
+.ptserif3{
+    font-family: 'pt_serif';
+    font-style: italic;
+}
+
+.text-styles {
+    border: 2px solid gray;
+    padding:10px 10px;
+    margin: 20px auto;
+    min-height: 100px;
+    text-align: left;
+    width: 100%;
+
+}
+
+h1{
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'jet_brain';
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'bitter';
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'pt_serif';
+}
